@@ -12,19 +12,19 @@
 
   <body>
 
-    <!-- Static navbar -->
-    <div class="navbar navbar-default navbar-static-top">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="uploadfile.php">Schwab Small Business Solutions</a>
+        <!-- Static navbar -->
+        <div class="navbar navbar-default navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="uploadfile.php">Schwab Small Business Solutions</a>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
 
 
-    <div class="container">
-    
-    	<div class="row">
+        <div class="container">
+
+            <div class="row">
 
 
 	       <?php
