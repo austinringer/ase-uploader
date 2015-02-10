@@ -48,15 +48,17 @@ if ($_POST["submit"]) {
     <meta name="description" content="Bootstrap contact form with PHP example by BootstrapBay.com.">
     <meta name="author" content="BootstrapBay.com">
     <title>Contact Form</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link href="boostrap/css/custom.css" rel="stylesheet">
 </head>
 <body>
+
 
     <!-- Static navbar -->
     <div class="navbar navbar-default navbar-static-top">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="uploadfile.php">Schwab Small Business Solutions</a>
+                <a class="navbar-brand" href="index.php"><img id="logo" src="assets/schwab.png"> Schwab Small Business Solutions</a>
             </div>
         </div>
     </div>
