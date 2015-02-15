@@ -52,13 +52,12 @@ if ($_POST["submit"]) {
     <link href="boostrap/css/custom.css" rel="stylesheet">
 </head>
 <body>
-
-
     <!-- Static navbar -->
     <div class="navbar navbar-default navbar-static-top">
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand" href="index.php"><img id="logo" src="assets/schwab.png"> Schwab Small Business Solutions</a>
+                <a class="navbar-brand" href="uploadfile.php">Schwab Small Business Solutions</a>
             </div>
         </div>
     </div>
