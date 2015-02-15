@@ -62,7 +62,7 @@
 				    <input type="file" name="file">
 				    <p class="help-block">Only jpg, jpeg, png and gif files with maximum size of 1 MB are allowed.</p>
 				  </div>
-				  <input type="submit" class="btn btn-lg btn-primary" value="Upload">
+				  <input type="submit" class="btn btn-primary" value="Upload">
 				</form>
 			</div>
 	      </div>
