@@ -7,19 +7,21 @@
 
     <!-- Bootstrap core CSS -->
     <link href="boostrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="boostrap/css/custom.css" rel="stylesheet">
+
 
   </head>
 
   <body>
 
-        <!-- Static navbar -->
-        <div class="navbar navbar-default navbar-static-top">
-          <div class="container">
-            <div class="navbar-header">
-              <a class="navbar-brand" href="uploadfile.php">Schwab Small Business Solutions</a>
-            </div>
+  <!-- Static navbar -->
+  <div class="navbar navbar-default navbar-static-top">
+      <div class="container">
+          <div class="navbar-header">
+              <a class="navbar-brand" href="index.php"><img id="uploaderlogo" src="assets/schwab.png"> Schwab Small Business Solutions</a>
           </div>
-        </div>
+      </div>
+  </div>
 
 
         <div class="container">
@@ -50,15 +52,15 @@
 	       ?>
     	</div>
     	
-		
+
 
 	      <div class="row">
-	      	<div class="col-lg-12">
+	      	<div class="col-lg-12"><br>
 	           <form class="well" action="upload.php" method="post" enctype="multipart/form-data">
 				  <div class="form-group">
 				    <label for="file">Select a file to upload</label>
 				    <input type="file" name="file">
-				    <p class="help-block">Only jpg,jpeg,png and gif file with maximum size of 1 MB is allowed.</p>
+				    <p class="help-block">Only jpg, jpeg, png and gif files with maximum size of 1 MB are allowed.</p>
 				  </div>
 				  <input type="submit" class="btn btn-lg btn-primary" value="Upload">
 				</form>

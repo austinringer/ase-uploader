@@ -23,11 +23,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 			if ( $size/1024/1024 > 2 ) {
 				$valid = false;
 				$response = 'File size is exceeding maximum allowed size.';
+
 			}
 			//upload file
 			if ($valid) {
-				$targetPath =  dirname( __FILE__ ) . DIRECTORY_SEPARATOR. 'uploads' . DIRECTORY_SEPARATOR. $name;
-				move_uploaded_file($tmpName,$targetPath); 
+                $path= 'cute-cat.jpg';
+                $type = pathinfo($path, PATHINFO_EXTENSION);
+                $data = file_get_contents($path);
+                $base64 = 'data:image/' . $type . ';base64,' . base64_encode($data);
+				//$targetPath =  dirname( __FILE__ ) . DIRECTORY_SEPARATOR. 'uploads' . DIRECTORY_SEPARATOR. $name;
+				move_uploaded_file($tmpName,$base64);
 				header( 'Location: uploadfile.php' ) ;
 				exit;
 			}
