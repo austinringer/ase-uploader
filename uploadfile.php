@@ -58,7 +58,7 @@
 	      	<div class="col-lg-12"><br>
 	           <form class="well" action="upload.php" method="post" enctype="multipart/form-data">
 				  <div class="form-group">
-				    <label for="file">Select a file to upload</label>
+				    <label for="file">Upload loan approval documents for our team to review</label>
 				    <input type="file" name="file">
 				    <p class="help-block">Only jpg, jpeg, png and gif files with maximum size of 1 MB are allowed.</p>
 				  </div>
