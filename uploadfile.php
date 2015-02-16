@@ -18,7 +18,7 @@
   <div class="navbar navbar-default navbar-static-top">
       <div class="container">
           <div class="navbar-header">
-              <a class="navbar-brand" href="index.php"><img id="uploaderlogo" src="assets/schwab.png"> Schwab Small Business Solutions</a>
+              <a class="navbar-brand" href="index.php"><img id="uploaderlogo" src="schwab.png"> Schwab Small Business Solutions</a>
           </div>
       </div>
   </div>
