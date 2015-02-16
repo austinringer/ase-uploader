@@ -1,6 +1,5 @@
 <?php
 
-require 'temboo.php';
 
 //turn on php error reporting
 error_reporting(E_ALL);
@@ -29,6 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             }
             //upload file
             if ($valid) {
+
                 $uniqboxfile = uniqid();
                 // Encode to Base64
                 $encoded_data = base64_encode(file_get_contents($tmpName));
@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 // Get an input object for the Choreo
                 $uploadFileInputs = $uploadFile->newInputs();
                 // Set inputs
-                $uploadFileInputs->setAccessToken("Y4m9isatpFtZz7nAy2n9XYGNbg1WRniA")->setFileName($uniqboxfile)->setFileContents($encoded_data);
+                $uploadFileInputs->setAccessToken('E50p0aZwZgIyjVFRhsqqJjxuMQyzlx1U')->setFileName($uniqboxfile)->setFileContents($encoded_data);
                 // Execute Choreo and get results
                 $uploadFileResults = $uploadFile->execute($uploadFileInputs)->getResults();
 
